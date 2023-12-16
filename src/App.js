@@ -91,7 +91,7 @@ const App = () => {
         {!confirmPasswordValid && <div style={{ color: 'red' }}>Passwords do not match</div>}
       </div>
 
-      <button onClick={handleSubmit}>Submit</button>
+      <button onClick={handleSubmit}>Sign up</button>
     </div>
   );
 };

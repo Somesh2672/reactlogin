@@ -10,8 +10,9 @@
   height: auto;
   padding: 1rem;
     margin: auto;
-    margin-top: 15%;
+    margin-top: 10%;
     gap: 0.5rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .app input label{
@@ -40,13 +41,17 @@
   align-items: center;
   justify-content: center;
   height: 80vh;
+ 
 }
 input{
   padding: 5px;
   margin:10px;
   border-radius: 5px;
   font-size: 100%;
+  outline: 2px;
 }
+
+
 
 button{
   border-radius: 5px;
@@ -56,4 +61,10 @@ button{
   color: white;
   cursor:pointer;
   margin-top: 10%;
+  width: 30%;
+  margin-left: 35%;
+}
+
+label{
+  font-weight: 800;
 }
